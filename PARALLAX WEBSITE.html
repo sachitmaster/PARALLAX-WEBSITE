@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARALLAX WEBSITE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px 0px;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg');
+            opacity: .7;
+            background-attachment: fixed;
+        }
+
+        .container1>h1 {
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #111;
+            color: white;
+            letter-spacing: .6rem;
+            font-size: 1.8rem;
+            width: unset;
+            padding: 0rem 1rem;
+            height: 11vh;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: .7;
+        }
+
+        .container2>h2 {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #666;
+        }
+
+        .container2 p {
+            width: 85%;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #666;
+            text-align: center;
+            line-height: 1.8rem;
+            margin-bottom: 3rem;
+        }
+
+        .container3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('	https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg');
+            height: 70vh;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            background-attachment: fixed;
+            letter-spacing: .7rem;
+            opacity: .7;
+        }
+
+        .container4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            opacity: .8;
+        }
+
+        .container4>h2 {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: white;
+        }
+        .container4 p {
+            width: 86%;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            line-height: 1.8rem;
+            margin-bottom: 3rem;
+        }
+        .container5 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg');
+            height: 70vh;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            background-attachment: fixed;
+            letter-spacing: .7rem;
+            opacity: .7;
+        }
+        @media screen and (max-width:1024px) {
+            .container1 > h1{
+                width: unset;
+                padding: 0rem 1rem;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .container1 > h1{
+                font-size: 1.5rem;
+                width: unset;
+                padding: 0rem 1rem;
+            }
+        }
+        @media screen and (max-width:480px) {
+            .container1 > h1{
+                font-size: 1rem;
+                width: unset;
+                letter-spacing: .5rem;
+                padding: 0rem .5rem;
+            }
+            .container3{
+                text-align: center;
+            }
+            .container5{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h1>PARALLAX WEBSITE</h1>
+    </div>
+    <div class="container2">
+        <h2>Section One</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
+            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
+            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
+            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
+            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
+            dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt
+            nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum
+            temporibus. Laborum ad temporibus ex, omnis!</p>
+    </div>
+    <div class="container3">
+        <h1>IMAGE TWO TEXT</h1>
+    </div>
+    <div class="container4">
+        <h2>Section Two</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
+            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
+            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
+            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
+            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
+            dolor repellendus ratione in.</p>
+    </div>
+    <div class="container5">
+        <h1>IMAGE THREE TEXT</h1>
+    </div>
+    <div class="container4">
+        <h2>Section Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
+            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
+            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
+            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
+            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
+            dolor repellendus ratione in.</p>
+    </div>
+    <div class="container1">
+        <h1>TRAVERSY MEDIA</h1>
+    </div>
+</body>
+
+</html>
